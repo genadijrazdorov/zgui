@@ -3,7 +3,7 @@ zGUI
 
 GUI software development on a zepto scale.
 
-zGUI (zeptoGUI) is a minimalistic toolkit for GUI software development in
+zGUI is a minimalistic toolkit for GUI software development in
 python.
 
 .. warning:: zGUI is at pre-development phase
