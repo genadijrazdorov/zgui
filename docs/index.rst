@@ -13,6 +13,7 @@ Welcome to zGUI's documentation!
     :maxdepth: 2
     :caption: Contents:
 
+    intro
     widgets
     geometry
 
