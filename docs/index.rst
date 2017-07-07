@@ -15,7 +15,6 @@ Welcome to zGUI's documentation!
 
     intro
     widgets
-    geometry
 
 
 Indices and tables
