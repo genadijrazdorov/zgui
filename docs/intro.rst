@@ -1,25 +1,26 @@
 Idea and project goals
 ======================
 
-Idea is to simplify GUI development by defining minimalistic API and enabling
-procedural, declarative and visual tools for GUI software development.
+Today's GUI development heavily depends on a design process.  Because GUI
+design requires different skill set from software development, it becomes big
+barrier for a non designer to develop GUI.
 
-Procedural style of GUI design, as done with tkinter, is tedious and
-hard to follow.  Declarative style is already used by Kivy and Enamel, as Kv
-language or declarative extension to the Python language grammar, respectively.
-IMHO, declarative style should be reserved for style configuration and GUI tree
-description in terms of yaml syntax.
+Idea behind zGUI project is to enable easy building of a GUI, by automating
+most of the design process and hiding all but the highest level of abstraction
+from the developer.
 
-Widget is a basic concept in all of the GUI libraries.  Big number of derived
-widgets and responsibility to map different data types to widgets complicates
-GUI development.  Reducing the number of derived widgets to minimum and
-introducing automatic mapping of basic data types to GUI widgets, results in
-easy GUI development and more consistent GUIs.
+Clear separation of application from user interface (UI) and style ("look and feel")
 
-Geometry management is another important concept in GUI development.  GUI
-libraries have number of different layouts, with specific logic behind them.
-In practise, almost every layout can be derived from a grid.  Simplification of
-geometry management is done by offering only grid layout and introducing new
-visual grid management by widget dragging and widget configuration through
-context menus.
+zGUI is trying to adhere to published guidelines of major platforms:
+
+    * `Design basics for Desktop applications (Microsoft)
+      <https://msdn.microsoft.com/en-us/library/windows/desktop/dn742446.aspx>`_
+    * `Design and UI for UWP apps (Microsoft)
+      <https://developer.microsoft.com/en-us/windows/apps/design>`_
+    * `Human Interface Guidelines (Apple)
+      <https://developer.apple.com/design/>`_
+    * `Up and running with material design (Android)
+      <https://developer.android.com/design/index.html>`_
+    * `GNOME Human Interface Guidelines
+      <https://developer.gnome.org/hig/stable/>`_
 

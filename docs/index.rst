@@ -14,8 +14,6 @@ Welcome to zGUI's documentation!
     :caption: Contents:
 
     intro
-    widgets
-    geometry
 
 
 Indices and tables
